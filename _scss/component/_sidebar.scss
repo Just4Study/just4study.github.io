@@ -169,7 +169,7 @@ a.sidebar-nav-item:focus {
 .wrap,
 .sidebar,
 .sidebar-toggle {
-  @include prefixer(backface-visibility, hidden, webkit ms spec);
+  @include prefixer(backface-visibility, visible, webkit ms spec);
 }
 .wrap,
 .sidebar-toggle {
