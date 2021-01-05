@@ -30,6 +30,6 @@ $reverse-layout: false;
 $overlay-sidebar: false;
 
 /* Font stack */
-$font-serif: sans-serif, "PT Serif", Georgia, "Times New Roman";
-$font-sans: sans-serif, "PT Sans", Helvetica, Arial;
+$font-serif: "PT Serif", Georgia, "Times New Roman", sans-serif;
+$font-sans: "PT Sans", Helvetica, Arial, sans-serif;
 $font-font-awesome: FontAwesome;
