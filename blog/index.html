@@ -20,7 +20,7 @@ title: Blog
     {% endif %}
 
     <article>
-      <strong>{{ post.excerpt | markdownify }}</strong>
+      {{ post.excerpt | markdownify }}
     <article>
     <div class="post-more">
       <strong><a href="{{ site.baseurl }}{{ post.url }}" style="color:red; text-align:left">Read more</a></strong>&nbsp&nbsp&nbsp
