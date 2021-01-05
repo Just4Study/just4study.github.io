@@ -2,6 +2,7 @@
 layout: post
 title: Example content
 categories: Play
+date: 2014-01
 excerpt: First Time
 ---
 

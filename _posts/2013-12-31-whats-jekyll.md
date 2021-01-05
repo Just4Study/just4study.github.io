@@ -2,6 +2,7 @@
 layout: post
 title: What's Jekyll?
 categories: Study
+date: 2013-12
 excerpt: <strong>First Time</strong>
 ---
 
