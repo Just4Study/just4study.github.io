@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 처음뵙겠습니다!
+title: DL과 함께하는 처음뵙겠습니다!
 categories: Study
 categories: Study
 excerpt: First Time
