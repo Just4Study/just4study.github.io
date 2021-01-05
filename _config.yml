@@ -43,7 +43,7 @@ nav:
   About:          
     - '/about/'
   My Github: 
-    - 'http://just4study.github.io/'
+    - 'http://github.com/just4study'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
