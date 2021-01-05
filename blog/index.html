@@ -20,10 +20,10 @@ title: Blog
     {% endif %}
 
     <article>
-      {{ post.excerpt | markdownify }}
+      <strong>{{ post.excerpt | markdownify }}</strong>
     <article>
     <div class="post-more">
-      <strong><a href="{{ site.baseurl }}{{ post.url }}" style="color:red; text-align:left">Read more</a></strong>&nbsp&nbsp
+      <strong><a href="{{ site.baseurl }}{{ post.url }}" style="color:red; text-align:left">Read more</a></strong>&nbsp&nbsp&nbsp
       {% if site.disqus_short_name %}
       <strong><a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" style="color:black"> <i class="fa fa-comments" aria-hidden="true"></i>Comment</a></strong>
       {% endif %}
