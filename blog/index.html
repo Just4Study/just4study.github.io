@@ -23,7 +23,7 @@ title: Blog
       {{ post.excerpt | markdownify }}
     <article>
     <div class="post-more">
-      <strong><a href="{{ site.baseurl }}{{ post.url }}" style="color:red"><i class="fa fa-plus-circle" aria-hidden="true"></i>Read more</a></strong>
+      <strong><a href="{{ site.baseurl }}{{ post.url }}" style="color:red">Read more</a></strong><br>
       {% if site.disqus_short_name %}
       <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" style="text-align:right"> <i class="fa fa-comments" aria-hidden="true"></i>Comment</a>&nbsp;
       {% endif %}
