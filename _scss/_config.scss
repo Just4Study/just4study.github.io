@@ -1,6 +1,8 @@
 /* Colors 
  * Based on colors from Base16: http://chriskempson.github.io/base16/#default.
  */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Sunflower:wght@500&display=swap');
+
 $red:      #ac4142;
 $orange:   #d28445;
 $yellow:   #f4bf75;
@@ -27,6 +29,6 @@ $reverse-layout: false;
 $overlay-sidebar: false;
 
 /* Font stack */
-$font-serif: "PT Serif", Georgia, "Times New Roman", serif;
+$font-serif: 'Sunflower', "PT Serif", Georgia, "Times New Roman", serif;
 $font-sans: "PT Sans", Helvetica, Arial, sans-serif;
 $font-font-awesome: FontAwesome;
