@@ -42,7 +42,7 @@ nav:
     - { Tags: '/blog/tags/' }
   About:          
     - '/about/'
-  Github Project: 
+  My Github: 
     - 'http://just4study.github.io/'
 
 # Where are tags and categories displayed
