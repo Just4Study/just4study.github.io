@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Example content
-categories: Study
+categories: Play
 excerpt: First Time
 ---
 
