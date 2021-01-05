@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducing Lanyon
+title: 처음뵙겠습니다!
 categories: Study
 categories: Study
 excerpt: First Time
