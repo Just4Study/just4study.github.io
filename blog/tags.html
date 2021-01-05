@@ -17,7 +17,7 @@ title: Tags
       {% for post in tag[1] %}
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
       <li>
-        <span style="color: #7b68ee;">{{ post.title }}</span>
+        <strong>{{ post.title }}</strong>
       <small class="post-date">{{ post.date | date_to_string }}</small>
       </li>
       </a>
