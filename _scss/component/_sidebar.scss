@@ -18,7 +18,7 @@
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 14rem;
+  width: 12rem;
   visibility: hidden;
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
@@ -28,9 +28,9 @@
 
   @if $reverse-layout {
     left: auto;
-    right: -14rem;
+    right: -12rem;
   } @else {
-    left: -14rem;
+    left: -12rem;
     right: auto;
   }
 
@@ -181,11 +181,11 @@ a.sidebar-nav-item:focus {
 }
 
 #sidebar-checkbox:checked ~ .wrap {
-  @include transform(translateX(if($overlay-sidebar,0,if($reverse-layout, -14rem, 14rem))));
+  @include transform(translateX(if($overlay-sidebar,0,if($reverse-layout, -12rem, 12rem))));
 }
 
 #sidebar-checkbox:checked ~ .sidebar {
-  @include transform(translateX(if($reverse-layout, -14rem, 14rem)));
+  @include transform(translateX(if($reverse-layout, -12rem, 12rem)));
   @if $overlay-sidebar {
     box-shadow: .25rem 0 .5rem rgba(0,0,0,.1);
     @if $reverse-layout { box-shadow: -.25rem 0 .5rem rgba(0,0,0,.2); }
@@ -193,7 +193,7 @@ a.sidebar-nav-item:focus {
 }
 
 #sidebar-checkbox:checked ~ .sidebar-toggle {
-  @include transform(translateX(if($reverse-layout, -14rem, 14rem)));
+  @include transform(translateX(if($reverse-layout, -12rem, 12rem)));
   @if $overlay-sidebar {
     box-shadow: 0 0 0 .25rem $white;
   }
