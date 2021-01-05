@@ -20,6 +20,9 @@
 
 .container {
   max-width: 32rem;
+  &.content {
+    padding-top: 6.5rem;
+  }
   a {
     @if $theme-color != $default { color: $theme-color; }
   }
