@@ -27,7 +27,7 @@
     @if $theme-color != $default { color: $theme-color; }
   }
 }
-@media (min-width: 74em) {
+@media (min-width: 70em) {
   .container {
     max-width: 64rem;
     &.content {
