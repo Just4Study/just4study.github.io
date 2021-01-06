@@ -4,12 +4,18 @@ title: Archive
 ---
 
 <div class="tags-expo">
-  <div class="tags-expo-list">
-    {% for tag in site.categories %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }} <strong><span style="font-size:.7rem">{{ tag[1].size }}</span></strong></a>
+    {% for post in site.posts %}
+    <h2> {{post.date}} </h2>
+    {% assign currentdate = post.date | date: "%Y" %}
+    {% if currentdate != date %}
+        {% unless forloop.first %}</ul>{% endunless %}
+        <h2 id="y{{post.date | date: "%Y"}}" class="hr">{{ currentdate }}</h2>
+        <ul class="related-posts">
+        {% assign date = currentdate %}
+    {% endif %}
+    {% include post-list-item.html post=post format="%d %b" %}
+    {% if forloop.last %}</ul>{% endif %}
     {% endfor %}
-  </div>
-  <hr/>
   <div class="tags-expo-section">
     {% for tag in site.categories %}
     <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
@@ -26,4 +32,3 @@ title: Archive
     {% endfor %}
   </div>
 </div>
-
