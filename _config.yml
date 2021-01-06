@@ -40,6 +40,7 @@ nav:
     - '/blog/'
     - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
+    - { Archive: '/blog/archive/' }
   About:          
     - '/about/'
   My Github: 
