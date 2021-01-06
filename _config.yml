@@ -36,7 +36,7 @@ author:
 nav:
   Home:           
     - '/'
-  Blog:           
+  DevLog:           
     - '/blog/'
     - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
