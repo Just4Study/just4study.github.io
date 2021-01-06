@@ -14,7 +14,7 @@ title: Archive
       {% for post in tag[1] %}
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
       <li>
-        <strong>{{ post.title }}</strong>
+        <strong style="color:red">{{ post.title }}</strong>
       <small class="post-date">{{ post.date | date_to_string }}</small>
       </li>
       </a>
