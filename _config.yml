@@ -7,8 +7,10 @@ url: http://just4study.github.io
 logo: '/public/logo.png'
 
 # Site configurations
-gems:
+plugins: 
   - jekyll-paginate
+
+encoding: "utf-8"
 markdown: kramdown
 kramdown:
   input: GFM
