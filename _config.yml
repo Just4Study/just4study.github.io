@@ -38,9 +38,9 @@ nav:
     - '/'
   DevLog:           
     - '/blog/'
+    - { Archive: '/blog/archive/' }
     - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
-    - { Archive: '/blog/archive/' }
   About:          
     - '/about/'
   My Github: 
