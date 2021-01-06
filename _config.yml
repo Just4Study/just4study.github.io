@@ -36,10 +36,9 @@ author:
 nav:
   Home:           
     - '/'
-  DevLog: 
-    - '/archive/'
-  Blog:           
+  DevLog:           
     - '/blog/'
+    - { Archive: '/blog/archive/'}
     - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
   About:          
