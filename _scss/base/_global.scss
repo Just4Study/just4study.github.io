@@ -6,6 +6,7 @@
 html,
 body {
   overflow-x: hidden;
+  -ms-overflow-style: none;
 }
 
 html {
@@ -17,6 +18,8 @@ html {
   -ms-text-size-adjust:100%;
   text-rendering:optimizelegibility;
 }
+
+::-webkit-scrollbar { display: none; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-sans;
