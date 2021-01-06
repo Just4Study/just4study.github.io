@@ -5,7 +5,7 @@ title: Archive
 
 <div class="tags-expo">
     {% for post in posts %}
-    <h2> {{post.date}} </h2>
+    <small class="post-date">{{ post.date | date_to_string }}</small>
     {% assign currentdate = post.date | date: "%Y" %}
     {% if currentdate != date %}
         {% unless forloop.first %}</ul>{% endunless %}
