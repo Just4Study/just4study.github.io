@@ -3,7 +3,7 @@ layout: default
 title: Archive
 ---
 
-{% for post in posts %}
+{% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
     {% unless forloop.first %}</ul>{% endunless %}
