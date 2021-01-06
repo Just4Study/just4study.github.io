@@ -38,7 +38,7 @@ nav:
     - '/'
   DevLog:           
     - '/blog/'
-    - { Archive: '/blog/archive/'}
+    - { Archive: '/blog/archiv/'}
     - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
   About:          
