@@ -6,15 +6,6 @@ title: Archive
 <div class="tags-expo">
     {% for post in posts %}
     <small class="post-date">{{ post.date | date_to_string }}</small>
-    {% assign currentdate = post.date | date: "%Y" %}
-    {% if currentdate != date %}
-        {% unless forloop.first %}</ul>{% endunless %}
-        <h2 id="y{{post.date | date: "%Y"}}" class="hr">{{ currentdate }}</h2>
-        <ul class="related-posts">
-        {% assign date = currentdate %}
-    {% endif %}
-    {% include post-list-item.html post=post format="%d %b" %}
-    {% if forloop.last %}</ul>{% endif %}
     {% endfor %}
   <div class="tags-expo-section">
     {% for tag in site.categories %}
