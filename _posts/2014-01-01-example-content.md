@@ -4,7 +4,6 @@ title: Example content
 categories: Play
 date: 2014-01-13 23:15:00 +08:00
 excerpt: First Time
-comments: true
 toc: true
 ---
 
