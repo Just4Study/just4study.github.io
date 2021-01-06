@@ -58,9 +58,7 @@
       {% if contact[0] == 'email' %}
       {% assign iconname = 'envelope' %}
       {% endif %}
-      <a href="{{ contact[1] }}" style="text-decoration:none">
-        <i class="fa fa-{{ iconname }}" aria-hidden="true" style="padding:10px"></i>
-      </a>
+      <a href="{{ contact[1] }}" style="text-decoration:none; padding:10px"><i class="fa fa-{{ iconname }}" aria-hidden="true"></i></a>
       {% assign current_index = current_index | plus: 1 %}
       {% endfor %}
       </p>
