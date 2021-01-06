@@ -2,7 +2,6 @@
 layout: post
 title: DL과 함께하는 PS 처음!
 categories: Study
-date: 2014-01-14 23:15:00 +08:00
 excerpt: First Time
 toc: true
 ---
