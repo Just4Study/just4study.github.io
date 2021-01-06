@@ -4,7 +4,7 @@ title: Archive
 ---
 
 <div class="tags-expo">
-    {% for post in posts %}
+    {% for post in paginator.posts %}
     <small class="post-date">{{ post.date | date_to_string }}</small>
     {% endfor %}
   <div class="tags-expo-section">
