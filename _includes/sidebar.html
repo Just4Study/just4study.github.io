@@ -46,6 +46,8 @@
         {% endfor %}
       </span>
     {% endfor %}
+  </nav>
+  <div class="sidebar-item">
     {% if site.author.contact %}
     {% assign len = site.author.contact | size %}
     {% assign current_index = 0 %}
@@ -65,8 +67,6 @@
       </p>
     </div>
     {% endif %}
-  </nav>
-  <div class="sidebar-item">
     <p>
     &copy; {{ site.time | date: '%Y' }} <strong style="color:white">{{ site.author.name }}</strong>. This work is liscensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.
     </p>
