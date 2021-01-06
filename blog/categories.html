@@ -25,15 +25,7 @@ title: Categories
     </ul>
     {% endfor %}
     {% for post in site.posts %}
-      {% assign currentdate = post.date | date: "%Y" %}
-      {% if currentdate != date %}
-        {% unless forloop.first %}</ul>{% endunless %}
-        <h2 id="y{{post.date | date: "%Y"}}" class="hr">{{ currentdate }}</h2>
-        <ul class="related-posts">
-        {% assign date = currentdate %}
-      {% endif %}
-      {% include post-list-item.html post=post format="%d %b" %}
-      {% if forloop.last %}</ul>{% endif %}
+      <h1> {{post.date}} </h1>
     {% endfor %}
   </div>
 </div>
