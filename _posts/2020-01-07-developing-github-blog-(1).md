@@ -1,13 +1,15 @@
 ---
 layout: post
-title: DL°ú ÇÔ²²ÇÏ´Â PS Ã³À½!
-categories: Study
-excerpt: First Time
+title: Github Blog ê°œë°œê¸° (1)
+categories: ['Github Blog']
+excerpt: <strong>Github Blog</strong> ê°œë°œê¸°
+tags: ['Github.io', 'jekyll']
 toc: true
 ---
 
+ëˆ„êµ¬ë‚˜ í•œ ë²ˆì¯¤ì€ Github Blog ê°œë°œì„ í•´ë³´ê³  ì‹¶ì„ ê²ƒì´ë‹¤
 anyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
-µö·¯´×Àº ÁÁ½À´Ï´Ù
+ë”¥ëŸ¬ë‹ì€ ì¢‹ìŠµë‹ˆë‹¤
 
 ### Built on Poole
 
@@ -24,7 +26,7 @@ Poole is the Jekyll Butler, serving as an upstanding and effective foundation fo
 
 In addition to the features of Poole, Lanyon adds the following:
 
-* Toggleable sliding sidebar (built with only CSS) via **?** link in top corner
+* Toggleable sliding sidebar (built with only CSS) via **â˜°** link in top corner
 * Sidebar includes support for textual modules and a dynamically generated navigation with active link support
 * Two orientations for content and sidebar, default (left sidebar) and [reverse](https://github.com/poole/lanyon#reverse-layout) (right sidebar), available via `<body>` classes
 * [Eight optional color schemes](https://github.com/poole/lanyon#themes), available via `<body>` classes

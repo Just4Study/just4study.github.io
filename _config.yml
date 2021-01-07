@@ -8,7 +8,11 @@ logo: '/public/logo.png'
 
 # Site configurations
 plugins: 
+  - jekyll-sitemap  
   - jekyll-paginate
+  - jekyll-feed
+  - jemoji
+
 markdown: kramdown
 kramdown:
   input: GFM
@@ -16,9 +20,8 @@ excerpt_separator: "<!-- more -->"
 sass:
   style: compressed
   sass_dir: _scss
-
-encoding: "utf-8"
-paginate: 6
+encoding: UTF-8
+paginate: 5
 paginate_path: '/blog/page:num'
 permalink: pretty
 
@@ -32,7 +35,7 @@ author:
   contact:
     linkedin:  https://www.linkedin.com/in/lizhihao
     github:    https://github.com/just4study
-    email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
+    email:     mailto:me.pidaoh@g.skku.edu
 
 # Navigation (2nd level links supported)
 nav:

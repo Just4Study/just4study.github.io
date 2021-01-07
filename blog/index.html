@@ -23,26 +23,26 @@ title: Blog
       {{ post.excerpt | markdownify }}
     <article>
     <div class="post-more">
-      <strong><a href="{{ site.baseurl }}{{ post.url }}" style="color:red; text-align:left;">Read more</a></strong>
+      <strong><a href="{{ site.baseurl }}{{ post.url }}" style="color:red; text-align:left; text-decoration: none">Read more</a></strong>
     </div>
   </div>
   {% endfor %}
 </div>
 
 <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/">Newer</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/" style="text-decoration:none">Newer</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}">Newer</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}" style="text-decoration:none">Newer</a>
     {% endif %}
   {% else %}
     <span class="pagination-item newer">Newer</span>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}" style="text-decoration:none">Older</a>
+  {% else %}
+    <span class="pagination-item older" style="text-decoration:none">Older</span>
   {% endif %}
 </div>
 
