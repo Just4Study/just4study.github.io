@@ -20,52 +20,6 @@
   @include transition(all .1s ease-in-out);
 }
 
-.post-category {
-  display: inline-block;
-  background: rgba($theme-color, 0.15);
-  padding: 0 .3rem;
-  margin-right: .5rem;
-  border-radius: 10px;
-  color: $theme-color;
-  font-family: 'Poppins', 'Noto Sans KR';
-  font-size: 0.9rem;
-  &:before {
-    content: "\1F4C2";
-    font-family: $font-font-awesome;
-    padding-right: .2em;
-  }
-  &:hover {
-    text-decoration: none;
-    background: $theme-color;
-    color: $white;
-  }
-  @include transition(all .1s ease-in-out);
-}
-
-.post-archive {
-  display: inline-block;
-  background: rgba($theme-color, 0.15);
-  padding: 0 .3rem;
-  margin-right: .5rem;
-  border-radius: 10px;
-  color: $theme-color;
-  font-family: 'Poppins', 'Noto Sans KR';
-  font-size: 0.9rem;
-  &:before {
-    content: "\1F4C5";
-    font-family: $font-font-awesome;
-    padding-right: .2em;
-  }
-  &:hover {
-    text-decoration: none;
-    background: $theme-color;
-    color: $white;
-  }
-  @include transition(all .1s ease-in-out);
-}
-
-
-
 .tags-expo {
   :target:before {
     content:"";
@@ -76,7 +30,7 @@
   .tags-expo-list {
     @media (min-width: 38em) {
       font-size: 0.9rem;
-      .post-tag, .post-archive, .post-category{
+      .post-tag {
         margin: .2em .3em;
       }
     }
@@ -108,4 +62,3 @@
     font-family: $font-serif;
   }
 }
-
