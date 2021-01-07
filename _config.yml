@@ -12,7 +12,8 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jemoji
-
+  - jekyll-spaceship
+  
 markdown: kramdown
 kramdown:
   input: GFM
