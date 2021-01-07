@@ -1,5 +1,5 @@
 # Site Info
-title: Study Log
+title: Dev Diary &#x1F4CC;
 tagline: 'Development Log'
 description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
 baseurl: ""
@@ -13,7 +13,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-spaceship
-  
+
 markdown: kramdown
 kramdown:
   input: GFM
@@ -31,7 +31,7 @@ version: 1.0.0
 # About/contact
 author:
   name: Just4study
-  description: <strong>Just4Study</strong> (Young-Uk)<br>This is My <strong>Study Log</strong>
+  description: <strong>Just4Study</strong> (Young-Uk)<br><strong>&#128075;</strong>This is My <strong>Study Log</strong>
   gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
   contact:
     linkedin:  https://www.linkedin.com/in/lizhihao
