@@ -3,32 +3,37 @@ layout: page
 title: Archive
 ---
 
-<h1>This Page is not developed Yet</h1>
+<h2>Sibal Hangul An Chu</h2>
 
 <div class="tags-expo">
   <div class="tags-expo-list">
+    {% assign cnt = 0 %}
     {% for post in site.posts %}
-    {% assign tag = post.date | date: "%Y-%b" %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }} <strong><span style="font-size:.7rem">{{ tag[1].size }}</span></strong></a>
+      {% assign currentdate = post.date | date: "%Y-%b" %}
+      {% assign cnt = cnt | plus: 1 %}
+      {% if currentdate != date and forloop.index0 != 0 %}
+        {% assign date = currentdate %}
+        <a href="#{{ date | slugify }}" class="post-tag">{{ date }} <strong><span style="font-size:.7rem"> {{ cnt }}</span></strong></a>
+        {% assign cnt = 0 %}
+      {% endif%}
     {% endfor %}
   </div>
   <hr/>
   <div class="tags-expo-section">
-    {% for tag in site.categories %}
-    <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
-    <ul class="tags-expo-posts">
-      {% for post in tag[1] %}
-        <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-      <li>
-        <strong>{{ post.title }}</strong>
-      <small class="post-date">{{ post.date | date_to_string }}</small>
-      </li>
-      </a>
-      {% endfor %}
-    </ul>
-    {% endfor %}
     {% for post in site.posts %}
-      <h1> {{post.date}} </h1>
+      {% assign currentdate = post.date | date: "%Y-%b" %}
+      {% if currentdate != date %}
+        <h2 id= "{{post.date | date: "%Y-%b"}}" >{{ currentdate }}</h2>
+        {% assign date = currentdate %}
+      {% endif %}
+      <ul class="tags-expo-posts">
+        <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+        <li>
+          <strong>{{ post.title }}</strong>
+          <small class="post-date">{{ post.date | date_to_string }}</small>
+        </li>
+        </a>
+      </ul>
     {% endfor %}
   </div>
 </div>

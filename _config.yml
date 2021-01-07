@@ -9,15 +9,15 @@ logo: '/public/logo.png'
 # Site configurations
 plugins: 
   - jekyll-paginate
-
-encoding: "utf-8"
 markdown: kramdown
 kramdown:
   input: GFM
 excerpt_separator: "<!-- more -->"
 sass:
   style: compressed
-  sass_dir: _scss    
+  sass_dir: _scss
+
+encoding: "utf-8"
 paginate: 6
 paginate_path: '/blog/page:num'
 permalink: pretty
