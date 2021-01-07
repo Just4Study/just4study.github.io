@@ -1,7 +1,7 @@
 .post-tag {
   display: inline-block;
   background: rgba($theme-color, 0.15);
-  padding: 0 .5rem;
+  padding: 0 .2rem;
   margin-right: .5rem;
   border-radius: 10px;
   color: $theme-color;
@@ -10,7 +10,7 @@
   &:before {
     content: "\1F517";
     font-family: $font-font-awesome;
-    padding-right: .5em;
+    padding-right: .2em;
   }
   &:hover {
     text-decoration: none;
