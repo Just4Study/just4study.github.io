@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Github Blog 개발 일지 (1) - 개발 환경 설정
+title: Github Blog 개발 일지 (1) - 개발 환경 설정 :+1:!
 categories: ['Github Blog']
 excerpt: <strong>Github Blog</strong> 개발 일지 - 개발 환경 설정
 tags: ['Github.io', 'jekyll']
@@ -8,6 +8,8 @@ toc: true
 ---
 
 누구나 한 번쯤은 Github Blog 개발을 해보고 싶을 것이다
+I give this plugin two :+1:!
+
 anyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 딥러닝은 좋습니다
 
