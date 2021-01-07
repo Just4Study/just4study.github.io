@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Github Blog 개발기 (1)
+title: Github Blog 개발 일지 (1) - 개발 환경 설정
 categories: ['Github Blog']
-excerpt: <strong>Github Blog</strong> 개발기
+excerpt: <strong>Github Blog</strong> 개발 일지 - 개발 환경 설정
 tags: ['Github.io', 'jekyll']
 toc: true
 ---
