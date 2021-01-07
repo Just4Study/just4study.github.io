@@ -23,7 +23,7 @@ title: Archive
     {% for post in site.posts %}
       {% assign currentdate = post.date | date: "%Y-%b" %}
       {% if currentdate != date %}
-        <p>&#x1F4C5; <h2 id= "{{post.date | date: "%Y-%b"}}" >{{ currentdate }}</h2></p>
+        <h2 id= "{{post.date | date: "%Y-%b"}}" >&#x1F4C5; {{ currentdate }}</h2>
         {% assign date = currentdate %}
       {% endif %}
       <ul class="tags-expo-posts">
