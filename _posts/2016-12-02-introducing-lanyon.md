@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DL과 함께하는 PS 처음!
-categories: Study
+categories: 군대
 excerpt: First Time
 toc: true
 ---
