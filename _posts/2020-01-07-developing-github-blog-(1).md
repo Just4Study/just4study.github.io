@@ -35,11 +35,11 @@ VSCode 설치는 [https://code.visualstudio.com/](https://code.visualstudio.com/
 
 Github Desktop을 설치하면 github 페이지에서 clone할 때 Open with Github Desktop으로 편리하게 clone 받아 사용할 수 있다.
 
-또한 Github Desktop을 설치했다면 File-Options-Integrations에서 External editor를 Visual Studio Code로 변경해줘야 한다. 그러면 Github Desktop에서 Ctrl Shift A로 바로 VScode로 열 수 있다.
-
+또한 Github Desktop을 설치했다면 File-Options-Integrations에서 External editor를 Visual Studio Code로 변경해줘야 한다. 그러면 Github Desktop에서 
+![capture](https://user-images.githubusercontent.com/48237469/103999470-4493e780-51e0-11eb-81af-80da0e5a8f46.PNG)
 ## Jekyll 설치
 
-> 필자는 개발을 시작할 때 jekyll 설치가 어려워보여 안하고 시작했다. <br>블로그 디자인을 할 때는 문제가 없었지만 Post를 업로드 하거나 Blog Layout을 수정할 때 에러가 난다는 것을 깨닫고 설치했다.
+> 본인은 개발을 시작할 때 jekyll 설치가 어려워보여 안하고 시작했다. <br>블로그 디자인을 할 때는 문제가 없었지만 Post를 업로드 하거나, Blog layout을 변경할 때 에러가 난다는 것을 깨닫고 설치했다.
 
 **[Jekyll 표준 문서](http://jekyllrb-ko.github.io/docs/installation/)** 에 들어가면 설치 방법이 자세하게 설명되어 있다.
 
@@ -48,4 +48,3 @@ Github Desktop을 설치하면 github 페이지에서 clone할 때 Open with Git
 Ubuntu에서 실행할 경우 `cd /mnt/c/`를 해줘야지 윈도우 파일 시스템으로 이동할 수 있다.
 
 예를 들어 필자와 같은 경우는  `cd /mnt/c/Users/temp/Desktop/github.io/`에 repo를 clone하여 local 환경에서 실행하였다.
-
