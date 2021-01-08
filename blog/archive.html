@@ -3,7 +3,7 @@ layout: page
 title: Archive
 ---
 
-<p>평범한 대학생의 Dev & Study Log &#x1F4DA;</p>
+<p>평범한 대학생의 Dev & Study Log &#x1F4DD;</p>
 
 <div class="tags-expo">
   <div class="tags-expo-list">
@@ -11,11 +11,11 @@ title: Archive
     {% for post in site.posts %}
       {% assign currentdate = post.date | date: "%Y-%b" %}
       {% assign cnt = cnt | plus: 1 %}
-      {% if currentdate != date and forloop.index0 != 0 %}
+      {% if currentdate != date and forloop.index0 != 0%}
+        <a href="#{{ date | slugify }}" class="post-tag">{{ currentdate }}<strong><span style="font-size:.7rem; vertical-align:.15rem; margin-left:7px">{{ cnt }}</span></strong></a>
         {% assign date = currentdate %}
-        <a href="#{{ date | slugify }}" class="post-tag">{{ date }}<strong><span style="font-size:.7rem; vertical-align:.15rem; margin-left:7px">{{ cnt }}</span></strong></a>
         {% assign cnt = 0 %}
-      {% endif%}
+      {% endif %}
     {% endfor %}
   </div>
   <hr/>
@@ -23,7 +23,7 @@ title: Archive
     {% for post in site.posts %}
       {% assign currentdate = post.date | date: "%Y-%b" %}
       {% if currentdate != date %}
-        <h2 id= "{{post.date | date: "%Y-%b"}}" >&#x1F4C5; {{ currentdate }}</h2>
+        <h2 id= "{{post.date | date: "%Y-%b"}}" >&#x1F4CB; {{ currentdate }}</h2>
         {% assign date = currentdate %}
       {% endif %}
       <ul class="tags-expo-posts">

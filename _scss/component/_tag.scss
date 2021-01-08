@@ -1,14 +1,14 @@
 .post-tag {
   display: inline-block;
   background: rgba($theme-color, 0.15);
-  padding: 0 .3rem;
+  padding: 0 .35rem;
   margin-right: .5rem;
   border-radius: 10px;
   color: $theme-color;
   font-family: 'Poppins', 'Noto Sans KR';
   font-size: 0.9rem;
   &:before {
-    content: "\1F517";
+    content: "\1F516";
     font-family: $font-font-awesome;
     padding-right: .2em;
   }
