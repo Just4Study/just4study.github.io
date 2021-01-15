@@ -1,6 +1,6 @@
 # Github Blog
 
-Made Based on [Lanyon](https://github.com/poole/lanyon) and [Codinfox-Lanyon](https://github.com/codinfox/codinfox-lanyon).
+Made Based on [Codinfox-Lanyon](https://github.com/codinfox/codinfox-lanyon).
 
 **If you like this project, PLEASE give it a star.**
 
@@ -24,6 +24,6 @@ The theme supports:
 
 - Archive Page - Bug Fix
 
-## License
+### License
 
 Open sourced under the [MIT license](LICENSE.md).
