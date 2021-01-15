@@ -3,7 +3,7 @@ layout: page
 title: Archive
 ---
 
-<p>평범한 대학생의 Dev & Study Log &#x1F4DD;</p>
+<p class = "message">평범한 대학생의 Dev & Study Log &#x1F4DD;</p>
 
 <div class="tags-expo">
   <div class="tags-expo-list">
@@ -26,11 +26,11 @@ title: Archive
   <hr/>
   <div class="tags-expo-section">
     {% for post in site.posts %}
-      {% assign currentdate = post.date | date: "%Y-%b" %}
+      {% assign date = post.date | date: "%Y-%b" %}
       {% if currentdate != date %}
         </ul> 
-        <h2 id= "{{post.date | date: "%Y-%b"}}" >&#x1F4CB; {{ currentdate }}</h2>
-        {% assign date = currentdate %}
+        <h2 id= "{{post.date | date: "%Y-%b"}}" >&#x1F4CB; {{ date }}</h2>
+        {% assign currentdate = date %}
         <ul class="tags-expo-posts">
       {% endif %}
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
