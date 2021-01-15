@@ -1,6 +1,6 @@
 # Github Blog
 
-Made Based on [Lanyon](https://github.com/poole/lanyon) and [here](https://github.com/codinfox/codinfox-lanyon).
+Made Based on [Lanyon](https://github.com/poole/lanyon) and [Codinfox-Lanyon](https://github.com/codinfox/codinfox-lanyon).
 
 **If you like this project, PLEASE give it a star.**
 
@@ -13,16 +13,16 @@ The theme supports:
 3. Integration of FontAwesome, MathJax, Disqus and Google Analytics
 4. and numerous improvements over original Lanyon
 
-## V1.0.0
+## v1.0.0
 
-1. Change entire Design - Sidebar, Post, etc..
-2. Add Archive Page
-3. Add # of posts about Tag
-4. Add Font Design - Korean, English
+- Change entire Design - Sidebar, Post, etc..
+- Add Archive Page
+- Add # of posts about Tag
+- Add Font Family - Korean, English
 
 ## v1.0.1
 
-1. Archive Page - Bug Fix
+- Archive Page - Bug Fix
 
 ## License
 
