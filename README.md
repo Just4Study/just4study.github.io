@@ -1,6 +1,6 @@
-# Codinfox-Lanyon
+# Github Blog
 
-This is a jekyll template based on [Lanyon](https://github.com/poole/lanyon). See a live demo [here](http://codinfox.github.io).
+Made Based on [Lanyon](https://github.com/poole/lanyon) And [here](https://github.com/codinfox/codinfox-lanyon).
 
 **If you like this project, PLEASE give it a star.**
 
@@ -20,4 +20,9 @@ The theme supports:
 
 Open sourced under the [MIT license](LICENSE.md).
 
-<3
+## V1.0.0
+
+1. Change entire Design - Sidebar, Post, etc..
+2. Add Archive Page
+3. Add # of posts about Tag
+4. Add Font Design - Korean, English
